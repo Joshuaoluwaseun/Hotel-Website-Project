@@ -8,7 +8,7 @@ html,body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7rem;
   overflow-x: hidden; 
-}
+ }
 
 #navbar{
   background: #3A3535;
@@ -155,7 +155,7 @@ html,body{
 
   .history .history-btn p{
     display: block;
-    width: 600px;
+    width: 550px;
     margin: auto;
     font-size: 1rem;
   }
@@ -206,7 +206,7 @@ html,body{
   /* About Info */
   #about-info .container{
   padding: 40px;
-  height: 400px;
+  height: 100%;
   }
 
   #about-info .container .info-left{
@@ -226,7 +226,7 @@ html,body{
     float: right;
     margin: auto;
     width: 38%;
-    min-height: 100%;
+    height: 100%;
     margin: -5px;
      border-radius: 50%;
   }
@@ -235,7 +235,8 @@ html,body{
   #testimonials{ 
    background: url('../img/image_resources/test-bg.jpg') no-repeat center center/cover;
    width: 100vw;
-   height: 600px;
+   height: 100%;
+   padding-bottom: 50px;
   } 
  
   #testimonials .testimonial{
@@ -268,8 +269,8 @@ html,body{
 
   /* Contact Form */
   .form .container{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
    }
 
   .form .form-head h1{
@@ -309,6 +310,7 @@ html,body{
     background: #000;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 20px;
   }
 
   .form .container form #submit-btn:hover{
